@@ -1,34 +1,57 @@
-# Astro Starter Kit: Basics
+# Personal Portfolio
 
-```sh
-npm create astro@latest -- --template basics
+My personal portfolio built with Astro, showcasing projects in data science, machine learning and data visualization.
+
+## 🌐 Live Website
+
+👉 **[View the live portfolio](https://martinelarsen.github.io/)**
+
+## ✨ Features
+
+* Project showcase with technologies and links
+* Built with Astro
+* Clean and minimal design
+
+## 🛠️ Tech Stack
+
+* Astro
+* TypeScript
+* HTML
+* CSS
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/martinelarsen/portfolio.git
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Move into the project directory:
 
-## 🚀 Project Structure
+```bash
+cd portfolio
+```
 
-Inside of your Astro project, you'll see the following folders and files:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The site will be available at:
 
 ```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+http://localhost:4321
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
+## 🧞 Astro Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -40,7 +63,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

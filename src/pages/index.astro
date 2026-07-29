@@ -1,11 +1,111 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { projects } from "../data/projects";
+import "../styles/global.css";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { Image } from "astro:assets";
+import profileImage from "../assets/profile.jpg";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>
+Martine Naustdal Larsen
+</title>
+
+<meta
+name="description"
+content="Portfolio of Martine Naustdal Larsen, MSc Machine Learning student building data-driven applications, dashboards and machine learning projects."
+/>
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+</head>
+
+<body>
+
+<Header />
+
+<main>
+
+<section class="hero" id="about">
+
+<div class="hero-content">
+
+<div class="hero-text">
+
+<p class="eyebrow">
+Machine Learning • Data Science • Data Visualization
+</p>
+
+<h1>
+Hi, I'm Martine 👋
+</h1>
+
+<p>
+I'm currently pursuing a Master's degree in Machine Learning at the
+University of Bergen after completing a Bachelor's degree in Data Science
+and a Bachelor's degree in Economics.
+</p>
+
+<p>
+I enjoy building data-driven applications that combine programming,
+data analysis and machine learning to solve practical problems.
+</p>
+
+</div>
+
+<div class="hero-image">
+
+<Image
+    src={profileImage}
+    alt="Portrait of Martine Naustdal Larsen"
+    width={900}
+    quality={90}
+    loading="eager"
+    fetchpriority="high"
+/>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="projects-cta">
+
+<a href="#projects" class="button-primary">
+Explore my projects
+</a>
+
+</div>
+
+<section id="projects">
+
+<h2>
+Selected Projects
+</h2>
+
+{
+projects.map(project => (
+<ProjectCard {...project} />
+))
+}
+
+</section>
+
+</main>
+
+<Footer />
+
+</body>
+
+</html>
+
