@@ -1,39 +1,23 @@
 import weartherImage from "../assets/wearther.png";
+import expenseCategorizerImage from "../assets/expense_categorizer.png";
 
 export const projects = [
 
 {
-    title: "End-to-End Electricity Forecasting Pipeline ⚡",
+    title: "Expense Categorizer 💳",
 
-    type: "Machine Learning Pipeline",
+    type: "Machine Learning Finance Application",
 
     description:
-        "An end-to-end machine learning pipeline for forecasting electricity consumption. The project covers data ingestion, preprocessing, feature engineering, model training, experiment tracking and deployment.",
+        "A machine learning application that automatically categorizes personal transactions from CSV files. It uses natural language processing with TF-IDF feature extraction and Logistic Regression to classify expenses and transform raw transaction data into structured financial data.",
 
-    status: "Coming Soon",
+    image: expenseCategorizerImage,
 
     tags: [
         "Python",
-        "Machine Learning",
-        "Time Series",
-        "MLOps"
-    ]
-},
-
-{
-    title: "Interactive Electricity Dashboard 📊",
-
-    type: "Data Visualization Dashboard",
-
-    description:
-        "An interactive dashboard exploring electricity consumption patterns through time series visualization, filtering and data exploration.",
-
-    status: "Coming Soon",
-
-    tags: [
-        "Data Visualization",
-        "Dashboard",
-        "Python"
+        "Scikit-learn",
+        "TF-IDF",
+        "Logistic Regression",
     ]
 },
 
@@ -55,13 +39,13 @@ export const projects = [
         "Python",
         "Streamlit",
         "Pandas",
-        "Weather API",
+        "API",
         "Fly.io"
     ]
 },
 
 {
-    title: "Flask Data Science Project 🧪",
+    title: "My First Data Science Project: Bike Traffic Prediction 🧪",
 
     type: "Data Science Application",
 
@@ -76,6 +60,24 @@ export const projects = [
         "Flask",
         "Machine Learning",
         "Data Science"
+    ]
+},
+
+{
+    title: "Bike Traffic Prediction V2 🚲",
+
+    type: "End-to-End Machine Learning System",
+
+    description:
+        "An improved version of my first data science project, rebuilt as a complete end-to-end machine learning pipeline. The project automates data collection from APIs, trains forecasting models, and creates a reproducible workflow for predicting bicycle traffic.",
+        
+    status: "Deployment in progress",
+        
+    tags: [
+        "Python",
+        "Machine Learning",
+        "Data Pipeline",
+        "API"
     ]
 },
 
