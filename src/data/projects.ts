@@ -44,59 +44,59 @@ export const projects = [
     ]
 },
 
-{
-    title: "My First Data Science Project: Bike Traffic Prediction 🧪",
+// {
+//     title: "My First Data Science Project: Bike Traffic Prediction 🧪",
 
-    type: "Data Science Application",
+//     type: "Data Science Application",
 
-    description:
-        "My first ever data science project combining data analysis, machine learning and a Flask web application.",
+//     description:
+//         "My first ever data science project combining data analysis, machine learning and a Flask web application.",
 
-    status: "Deployment in progress",
+//     status: "Deployment in progress",
 
-    tags: [
-        "Python",
-        "Pandas",
-        "Flask",
-        "Machine Learning",
-        "Data Science"
-    ]
-},
+//     tags: [
+//         "Python",
+//         "Pandas",
+//         "Flask",
+//         "Machine Learning",
+//         "Data Science"
+//     ]
+// },
 
-{
-    title: "Bike Traffic Prediction V2 🚲",
+// {
+//     title: "Bike Traffic Prediction V2 🚲",
 
-    type: "End-to-End Machine Learning System",
+//     type: "End-to-End Machine Learning System",
 
-    description:
-        "An improved version of my first data science project, rebuilt as a complete end-to-end machine learning pipeline. The project automates data collection from APIs, trains forecasting models, and creates a reproducible workflow for predicting bicycle traffic.",
+//     description:
+//         "An improved version of my first data science project, rebuilt as a complete end-to-end machine learning pipeline. The project automates data collection from APIs, trains forecasting models, and creates a reproducible workflow for predicting bicycle traffic.",
         
-    status: "Deployment in progress",
+//     status: "Deployment in progress",
         
-    tags: [
-        "Python",
-        "Machine Learning",
-        "Data Pipeline",
-        "API"
-    ]
-},
+//     tags: [
+//         "Python",
+//         "Machine Learning",
+//         "Data Pipeline",
+//         "API"
+//     ]
+// },
 
-{
-    title: "SQL + Shiny Dashboard 📈",
+// {
+//     title: "SQL + Shiny Dashboard 📈",
 
-    type: "Interactive Data Dashboard",
+//     type: "Interactive Data Dashboard",
 
-    description:
-        "An interactive dashboard built with Shiny and SQL, demonstrating database querying, data processing and visualization.",
+//     description:
+//         "An interactive dashboard built with Shiny and SQL, demonstrating database querying, data processing and visualization.",
 
-    status: "Deployment in progress",
+//     status: "Deployment in progress",
 
-    tags: [
-        "Shiny",
-        "SQL",
-        "Data Visualization"
-    ]
-},
+//     tags: [
+//         "Shiny",
+//         "SQL",
+//         "Data Visualization"
+//     ]
+// },
 
 {
     title: "Portfolio Website 💼",
@@ -106,7 +106,7 @@ export const projects = [
     description:
         "My personal portfolio website, that you're currently on, built to showcase data science, machine learning, and data visualization projects. Built with Astro.",
 
-    github: "",
+    github: "https://github.com/martinelarsen/martinelarsen.github.io/tree/main",
 
     tags: [
         "Astro",
